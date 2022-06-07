@@ -10,3 +10,6 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!!
 <a href="https://manu2575.github.io/HTML-CSS/Exercícios/Desafios/Des009/index.html">Executar o Desafio 09</a>
 
 <a href="https://manu2575.github.io/HTML-CSS/Exercícios/Projeto-Cordel/index.html">Executar o Projeto Cordel</a>
+
+
+<a href="https://manu2575.github.io/HTML-CSS/Exercícios/JornaldaEscola/index.html">Executar o Jornal da Escola</a>
