@@ -17,17 +17,17 @@
 */
 :root{
     --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
+    --cor1: #f3a9a9;
+    --cor2: #f55e5e;
+    --cor3: #f80e0e;
     --cor4: #1a5c37;
     --cor5: #063d1e;
-    --cor01: #fbab9b;
-    --cor11: #fa6c50;
-    --cor21: #c75640;
-    --cor31: #7a3527;
-    --cor41: #7a544c;
-    --cor51: #543a34;
+    --cor01: #51b1f6;
+    --cor11: #479bd8;
+    --cor21: #3790a9;
+    --cor31: #2b6783;
+    --cor41: #2a4ad78b;
+    --cor51: #0b2ab38b;
     
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
     --fonte-destaque: 'Bebas Neue',  cursiva;
@@ -46,7 +46,7 @@ a.externo::after{
     content: '\00a0\1f517';
 }
 header{
-        background-image: linear-gradient(to bottom, var(--cor31), var(--cor51));
+        background-image: linear-gradient(to bottom, var(--cor01), var(--cor01));
         min-height: 150px;
         text-align: center;
         padding-top: 40px;
@@ -75,7 +75,7 @@ nav{
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0, 0.192);
     }
 nav > a{
-        color: var(--cor11);
+        color: var(--cor0);
         padding: 10px;
         border-radius: 5px;
         text-decoration: none;
@@ -83,7 +83,7 @@ nav > a{
         transition-duration: .5s;
     }
 nav > a:hover{
-                background-color: var(--cor31);
+                background-color: var(--cor3);
                 color: var(--cor0);
             }
 main{
@@ -142,6 +142,10 @@ main img.pequena{
                 }
 article h4{
     text-align-last: center;
+}
+article h1{
+    background-color: var(--cor3);
+    color: var(--cor0);
 }
 section{
         padding-top: 2vh;
